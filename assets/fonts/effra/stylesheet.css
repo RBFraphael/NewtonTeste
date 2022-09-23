@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Effra';
+    src: url('EffraHeavy-Italic.woff2') format('woff2'),
+        url('EffraHeavy-Italic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('Effra-BoldItalic.woff2') format('woff2'),
+        url('Effra-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('EffraLight-Regular.woff2') format('woff2'),
+        url('EffraLight-Regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('EffraHeavy-Regular.woff2') format('woff2'),
+        url('EffraHeavy-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('Effra-Italic.woff2') format('woff2'),
+        url('Effra-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('Effra-Bold.woff2') format('woff2'),
+        url('Effra-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('Effra-Regular.woff2') format('woff2'),
+        url('Effra-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('EffraMedium-Italic.woff2') format('woff2'),
+        url('EffraMedium-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('EffraLight-Italic.woff2') format('woff2'),
+        url('EffraLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('EffraMedium-Regular.woff2') format('woff2'),
+        url('EffraMedium-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
