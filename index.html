@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Clinic São Paulo</title>
+    <!-- [CSS] Fonts -->
+    <link rel="stylesheet" href="./assets/fonts/canaro/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/effra/style.css">
+    <link rel="stylesheet" href="./assets/fonts/segoe-ui/stylesheet.css">
+
+    <!-- [CSS] Stylesheets -->
+    <link rel="stylesheet" href="./assets/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="./assets/css/main.min.css?v=202209221903">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row px-3 px-lg-0">
+                <div class="col-4 d-lg-none">
+                    <button class="menu" data-bs-toggle="offcanvas" data-bs-target="#mobile-menu" aria-controls="mobile-menu">
+                        <i class="fa-solid fa-bars fa-xl fa-fw"></i>
+                    </button>
+                </div>
+                <div class="col-8 col-lg-12">
+                    <div class="d-flex justify-content-end">
+                        <ul class="list-inline text-end mb-0 me-3 d-none d-lg-flex">
+                            <li class="list-inline-item">
+                                <a href="#about-us">Quem somos</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#our-team">Equipe</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#our-space">Espaço</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#contact">Contato</a>
+                            </li>
+                        </ul>
+                        <button class="search" data-bs-toggle="offcanvas" data-bs-target="#search-modal" aria-controls="search-modal">
+                            <i class="fa-solid fa-magnifying-glass fa-xl fa-fw"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="carousel">
+                <div class="slide">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-12 text-center">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <h4>Lorem ipsum dolor sit amet</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-12 text-center">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <h4>Lorem ipsum dolor sit amet</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-12 text-center">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                                <h4>Lorem ipsum dolor sit amet</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-5" id="about-us">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                    <img src="./assets/img/quem-somos.png" alt="Quem somos" class="img-fluid" data-aos="fade-right">
+                </div>
+                <div class="col-12 col-lg-4 offset-lg-1">
+                    <h1 class="section-label" data-aos="fade-left">Quem somos</h1>
+                    <h1 class="section-title" data-aos="fade-left">Lorem ipsum dolor sit amet.</h1>
+                    <p class="section-text" data-aos="fade-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus bibendum scelerisque. Duis ornare et risus id faucibus. Fusce tincidunt leo elit. Suspendisse potenti. Nunc vestibulum dolor et risus viverra mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a ex quis sapien laoreet eleifend.</p>
+                    <div data-aos="fade-left">
+                        <a href="#contact" class="section-button">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-5" id="our-team">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                    <h1 class="section-label" data-aos="fade-right">Nossa equipe</h1>
+                    <h1 class="section-title" data-aos="fade-right">Lorem ipsum dolor sit amet</h1>
+                    <p class="section-text" data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus bibendum scelerisque. Duis ornare et risus id faucibus. Fusce tincidunt leo elit. Suspendisse potenti. Nunc vestibulum dolor et risus viverra mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a ex quis sapien laoreet eleifend.</p>
+                </div>
+                <div class="col-12 col-lg-6 offset-lg-2">
+                    <img src="./assets/img/nossa-equipe.png" alt="Nossa equipe" class="img-fluid" data-aos="fade-left">
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid py-5" id="our-space">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                        <h1 class="section-label" data-aos="fade-right">Nosso espaço</h1>
+                        <h1 class="section-title" data-aos="fade-right">Lorem ipsum dolor sit amet</h1>
+                        <p class="section-text" data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus bibendum scelerisque. Duis ornare et risus id faucibus. Fusce tincidunt leo elit. Suspendisse potenti. Nunc vestibulum dolor et risus viverra mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a ex quis sapien laoreet eleifend.</p>
+                    </div>
+                    <div class="col-12 col-lg-5 offset-lg-2">
+                        <ul class="list-inline">
+                            <li class="list-inline-item me-5">
+                                <button class="carousel-nav prev" data-target="#our-space-carousel" data-aos="fade-left">
+                                    <i class="fa-solid fa-arrow-left fa-fw"></i>
+                                </button>
+                            </li>
+                            <li class="list-inline-item">
+                                <button class="carousel-nav next" data-target="#our-space-carousel" data-aos="fade-left">
+                                    <i class="fa-solid fa-arrow-right fa-fw"></i>
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="carousel" id="our-space-carousel" data-aos="fade-left">
+                            <div class="slide">
+                                <img src="./assets/img/nosso-espaco.png" alt="Nosso espaço" class="img-fluid" data-aos="fade-left">
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/img/nosso-espaco.png" alt="Nosso espaço" class="img-fluid" data-aos="fade-left">
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/img/nosso-espaco.png" alt="Nosso espaço" class="img-fluid" data-aos="fade-left">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-5" id="contact">
+            <div class="row justify-content-center mb-5 pt-5">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 text-center">
+                    <h1 data-aos="fade-up">Fale conosco</h1>
+                    <p data-aos="fade-up">Quer conversar com a Health Clinic? Basta preencher o formulário abaixo e nós entraremos em contato assim que possível!</p>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-12">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-delay="100">
+                            <a href="#" class="contact-button">
+                                <i class="fa-solid fa-phone fa-lg"></i>
+                                Telefone
+                            </a>
+                        </li>
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-delay="200">
+                            <a href="#" class="contact-button">
+                                <i class="fa-brands fa-whatsapp fa-lg"></i>
+                                WhatsApp
+                            </a>
+                        </li>
+                        <li class="list-inline-item" data-aos="fade-up" data-aos-delay="300">
+                            <a href="#" class="contact-button">
+                                <i class="fa-brands fa-weixin fa-lg"></i>
+                                WeChat
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <form id="contact-form" action="./api/index.php" method="POST">
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Nome" required data-aos="fade-right">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="E-mail" required data-aos="fade-right">
+                                <select name="subject" id="subject" class="form-select" required data-aos="fade-right">
+                                    <option value="" selected disabled hidden>Assunto</option>
+                                    <option value="Sugestão">Sugestão</option>
+                                    <option value="Reclamação">Reclamação</option>
+                                    <option value="Suporte">Suporte</option>
+                                    <option value="Outro">Outro</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-lg-6 text-end">
+                                <textarea name="message" id="message" rows="9" class="form-control" placeholder="Mensagem" required data-aos="fade-left"></textarea>
+                                <div data-aos="fade-up">
+                                    <button type="submit">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 offset-lg-3 mb-4 mb-lg-0">
+                    <ul class="list-inline text-center m-0">
+                        <li class="list-inline-item mx-4 mb-3 mb-lg-0">
+                            <a href="#about-us">Quem somos</a>
+                        </li>
+                        <li class="list-inline-item mx-4 mb-3 mb-lg-0">
+                            <a href="#">Especialidades</a>
+                        </li>
+                        <li class="list-inline-item mx-4 mb-3 mb-lg-0">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="list-inline-item mx-4 mb-3 mb-lg-0">
+                            <a href="#contact">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <ul class="list-inline text-center text-lg-end m-0">
+                        <li class="list-inline-item">
+                            <a href="https://linkedin.com/in/rbfraphael" target="_blank" rel="noopener noreferrer" class="social linkedin">
+                                <i class="fa-brands fa-linkedin-in fa-fw fa-lg"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://facebook.com/rbfraphael" target="_blank" rel="noopener noreferrer" class="social facebook">
+                                <i class="fa-brands fa-facebook-f fa-fw fa-lg"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://instagram.com/rbfraphael" target="_blank" rel="noopener noreferrer" class="social instagram">
+                                <i class="fa-brands fa-instagram fa-fw fa-lg"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center">Health Clinic São Paulo - Todos os Direitos Reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="mobile-menu" aria-labelledby="menu-title">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title" id="menu-title">Menu</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+        </div>
+        <hr>
+        <div class="offcanvas-body">
+            <ul class="list-unstyled m-0 p-0">
+                <li>
+                    <a href="#about-us" class="menu-button">Quem somos</a>
+                </li>
+                <li>
+                    <a href="#our-team" class="menu-button">Equipe</a>
+                </li>
+                <li>
+                    <a href="#our-space" class="menu-button">Espaço</a>
+                </li>
+                <li>
+                    <a href="#contact" class="menu-button">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-top px-2 px-lg-5" tabindex="-1" id="search-modal">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title" id="menu-title">Pesquisar</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+        </div>
+        <div class="offcanvas-body text-end">
+            <form action="./" method="get">
+                <input type="text" name="s" id="s" class="form-control mb-5" required placeholder="Digite o que procura...">
+                <button type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- [JS] Scripts -->
+    <script src="./assets/js/jquery-3.6.1.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/fontawesome-all.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/sweetalert2.all.min.js"></script>
+    <script src="./assets/js/main.js?v=202209222008"></script>
+</body>
+</html>

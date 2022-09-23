@@ -1,0 +1,50 @@
+header {
+    background-color: #FFF;
+    box-shadow: 0px 5px 9px #0000001C;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 999;
+
+    button.menu {
+        background: none;
+        border: none;
+        outline: none;
+
+        svg path {
+            fill: #000000;
+        }
+    }
+
+    ul {
+        li {
+            margin-right: 2rem !important;
+
+            a {
+                color: #575756;
+                font-size: 1.6rem;
+                line-height: 2.1rem;
+                font-weight: 400;
+                text-decoration: none;
+                transition: color 0.3s ease-in-out;
+
+                &:hover {
+                    color: #E42313;
+                }
+            }
+        }
+    }
+
+    button.search {
+        background: none;
+        border: none;
+        outline: none;
+
+        svg path {
+            fill: #E42313;
+        }
+    }
+}

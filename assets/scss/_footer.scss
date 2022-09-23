@@ -1,0 +1,58 @@
+footer {
+    background-color: #575756;
+    padding-top: 5.1rem;
+    padding-bottom: 2.8rem;
+    
+    * {
+        color: $white;
+    }
+
+    hr {
+        margin-top: 6.4rem;
+        margin-bottom: 4rem;
+        border-color: $white;
+        opacity: 1;
+    }
+
+    a {
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+
+        &.social {
+            transition: background-color 0.3s ease-in-out;
+            display: inline-block;
+            padding: 0.4rem;
+            border-radius: 1rem;
+
+            svg path {
+                transition: fill 0.3s ease-in-out;
+            }
+        }
+
+        &:hover {
+            color: #E42313;
+
+            &.social {
+                background-color: $white;
+
+                &.facebook {
+                    svg path {
+                        fill: #4267B2;
+                    }
+                }
+
+                &.linkedin {
+                    svg path {
+                        fill: #0E76A8;
+                    }
+                }
+
+                &.instagram {
+                    svg path {
+                        fill: #DD2A7B;
+                    }
+                }
+            }
+        }
+    }
+}

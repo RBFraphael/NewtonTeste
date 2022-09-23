@@ -1,0 +1,23 @@
+.offcanvas#mobile-menu {
+    h1 {
+        color: #575756;
+        font-size: 3.2rem;
+        line-height: 4rem;
+    }
+
+    ul {
+        li {
+            padding: 1rem;
+
+            a {
+                color: #575756;
+                text-decoration: none;
+                width: 100%;
+                padding: 1.2rem 3.2rem;
+                text-align: left;
+                background-color: #FBFBFB;
+                display: block;
+            }
+        }
+    }
+}
